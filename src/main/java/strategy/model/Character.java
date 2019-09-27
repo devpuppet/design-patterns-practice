@@ -1,4 +1,4 @@
-package model;
+package strategy.model;
 
 import strategy.weapon.WeaponBehavior;
 

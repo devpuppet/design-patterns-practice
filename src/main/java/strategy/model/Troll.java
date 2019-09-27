@@ -1,4 +1,4 @@
-package model;
+package strategy.model;
 
 public class Troll extends Character {
 }

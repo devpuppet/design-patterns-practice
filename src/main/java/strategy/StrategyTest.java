@@ -1,10 +1,12 @@
-import model.*;
-import model.Character;
+package strategy;
+
+import strategy.model.*;
+import strategy.model.Character;
 import strategy.weapon.*;
 
-public class StrategyMain {
+public class StrategyTest {
 
-    public static void main(String[] args) {
+    public static void run() {
         WeaponBehavior sword = new SwordBehavior();
         Character knight = new Knight();
         knight.setWeaponBehavior(sword);
