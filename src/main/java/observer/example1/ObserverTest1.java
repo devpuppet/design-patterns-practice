@@ -2,7 +2,7 @@ package observer.example1;
 
 import java.math.BigDecimal;
 
-public class ObserverTest {
+public class ObserverTest1 {
 
     public static void run() {
         WeatherData weatherData = new WeatherData();
