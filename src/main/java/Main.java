@@ -1,8 +1,4 @@
-import decorator.DecoratorTest;
-import factory.abstract_factory.AbstractFactoryTest;
-import factory.factory_method.FactoryMethodTest;
-import observer.example1.ObserverTest1;
-import observer.example2.ObserverTest2;
+import singleton.SingletonTest;
 
 public class Main {
 
@@ -12,7 +8,8 @@ public class Main {
         //ObserverTest2.run();
         //DecoratorTest.run();
         //FactoryMethodTest.run();
-        AbstractFactoryTest.run();
+        //AbstractFactoryTest.run();
+        SingletonTest.run();
     }
 
 }
