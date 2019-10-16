@@ -1,3 +1,4 @@
+import adapter.AdapterTest;
 import command.client.CommandTest;
 
 public class Main {
@@ -10,7 +11,8 @@ public class Main {
         //FactoryMethodTest.run();
         //AbstractFactoryTest.run();
         //SingletonTest.run();
-        CommandTest.run();
+        //CommandTest.run();
+        AdapterTest.run();
     }
 
 }
