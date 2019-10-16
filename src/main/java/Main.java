@@ -1,4 +1,4 @@
-import singleton.SingletonTest;
+import command.client.CommandTest;
 
 public class Main {
 
@@ -9,7 +9,8 @@ public class Main {
         //DecoratorTest.run();
         //FactoryMethodTest.run();
         //AbstractFactoryTest.run();
-        SingletonTest.run();
+        //SingletonTest.run();
+        CommandTest.run();
     }
 
 }
