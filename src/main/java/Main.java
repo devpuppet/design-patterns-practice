@@ -1,5 +1,4 @@
-import adapter.AdapterTest;
-import command.client.CommandTest;
+import facade.FacadeTest;
 
 public class Main {
 
@@ -12,7 +11,8 @@ public class Main {
         //AbstractFactoryTest.run();
         //SingletonTest.run();
         //CommandTest.run();
-        AdapterTest.run();
+        //AdapterTest.run();
+        FacadeTest.run();
     }
 
 }
