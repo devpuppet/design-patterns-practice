@@ -1,4 +1,5 @@
 import facade.FacadeTest;
+import iterator_composite.iterator.IteratorTest;
 import template_method.TemplateMethodTest;
 
 public class Main {
@@ -14,7 +15,8 @@ public class Main {
         //CommandTest.run();
         //AdapterTest.run();
         //FacadeTest.run();
-        TemplateMethodTest.run();
+        //TemplateMethodTest.run();
+        IteratorTest.run();
     }
 
 }
