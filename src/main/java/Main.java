@@ -1,4 +1,5 @@
 import facade.FacadeTest;
+import template_method.TemplateMethodTest;
 
 public class Main {
 
@@ -12,7 +13,8 @@ public class Main {
         //SingletonTest.run();
         //CommandTest.run();
         //AdapterTest.run();
-        FacadeTest.run();
+        //FacadeTest.run();
+        TemplateMethodTest.run();
     }
 
 }
