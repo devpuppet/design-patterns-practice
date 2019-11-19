@@ -1,6 +1,7 @@
 import facade.FacadeTest;
 import iterator_composite.composite.CompositeTest;
 import iterator_composite.iterator.IteratorTest;
+import state.StateTest;
 import template_method.TemplateMethodTest;
 
 public class Main {
@@ -18,7 +19,8 @@ public class Main {
         //FacadeTest.run();
         //TemplateMethodTest.run();
         //IteratorTest.run();
-        CompositeTest.run();
+        //CompositeTest.run();
+        StateTest.run();
     }
 
 }
