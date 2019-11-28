@@ -1,6 +1,7 @@
 import facade.FacadeTest;
 import iterator_composite.composite.CompositeTest;
 import iterator_composite.iterator.IteratorTest;
+import proxy.virtual_proxy.VirtualProxyTest;
 import state.StateTest;
 import template_method.TemplateMethodTest;
 
@@ -20,7 +21,8 @@ public class Main {
         //TemplateMethodTest.run();
         //IteratorTest.run();
         //CompositeTest.run();
-        StateTest.run();
+        //StateTest.run();
+        VirtualProxyTest.run();
     }
 
 }
